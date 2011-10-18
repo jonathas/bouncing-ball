@@ -1,0 +1,22 @@
+
+Programa C/C++ que usa OpenGL para simular um círculo se movimentando.
+Conforme o círculo se choca contra as paredes internas da janela, ele desvia a sua trajetória.
+
+1) O circulo é desenhado preenchido ou não preenchido, conforme o usuário teclar a
+barra de espaço.
+
+2) Quando o usuário teclar a seta para cima, o raio do círculo é aumentado em 1 pixel.
+O limite superior é de 50 pixels. Quando o usuário teclar seta para baixo, o raio do círculo
+é diminuído em 1 pixel. O limite inferior é de 5 pixels. O raio inicial, é de 10 pixels.
+
+3) Se o usuário clicar com o mouse em qualquer lugar da janela, o centro do círculo é ser
+alterado para o local onde o mouse foi clicado.
+
+4) Quando o usuário teclar '+', o numero de lados usados para desenhar o círculo é 
+aumentado em 1. O limite superior é de 60 lados. Quando o usuário teclar '-', o número de
+lados usado para desenhar o círculo é diminuído de 1. O limite inferior é de 4 lados
+(quadrado). O número de lados inicial é de 60 lados.
+
+5) O circulo para ou se movimenta conforme o usuário pressionar a tecla 's'. 
+Obs: Mesmo estando parado, todas as demais teclas continuam funcionando.
+
